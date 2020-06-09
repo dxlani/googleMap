@@ -1,4 +1,5 @@
-FROM dxlani/node8_slim_cnpm
+FROM dxlani/sino_front8
+
 WORKDIR /app
 
 COPY ./package.json /app/
