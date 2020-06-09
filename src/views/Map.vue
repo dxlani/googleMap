@@ -8,8 +8,8 @@ export default {
   methods: {
     initialize() {
       const mapOptions = {
-        zoom: 8,
-        center: new google.maps.LatLng(25.091075, 121.55983449999997),
+        zoom: 17,
+        center: new google.maps.LatLng(32.158139, 119.51325),
       };
       const map = new google.maps.Map(
         document.getElementById("map-canvas"),
